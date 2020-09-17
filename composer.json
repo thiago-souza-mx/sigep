@@ -2,6 +2,8 @@
     "name": "designermx/sigep",
     "description": "Classes de auxilio ao Sigep web",
     "type": "library",
+    "keywords": ["correios", "sigep"],
+    "prefer-stable": true,
     "require": {
         "php": "^7.0",
         "stavarengo/php-sigep": "^1.0@dev",
