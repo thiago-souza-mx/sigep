@@ -5,13 +5,8 @@
     "keywords": ["correios", "sigep"],
     "prefer-stable": true,
     "require": {
-        "php": ">=5.4",
-        "stavarengo/php-sigep": "^1.0@dev",
-        "stavarengo/php-sigep-fpdf": "dev-master",
-        "ext-soap": "*",
-        "ext-mbstring": "*",
-        "vria/nodiacritic": "^0.1.2"
-
+        "php": ">=5.4"
+  
     },
     "license": "MIT",
     "authors": [
