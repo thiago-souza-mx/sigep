@@ -20,5 +20,5 @@
         },
         "files": ["App/Config/Requires.php"]
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
