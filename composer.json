@@ -1,0 +1,24 @@
+{
+    "name": "designermx/sigep",
+    "description": "Classes de auxilio ao Sigep web",
+    "type": "library",
+    "require": {
+        "php": "^7.0",
+        "stavarengo/php-sigep": "^1.0@dev",
+        "stavarengo/php-sigep-fpdf": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thiago Souza",
+            "email": "thiagoraouza@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Sigep\\":"src/"
+        },
+        "files": ["App/Config/Requires.php"]
+    },
+    "minimum-stability": "dev"
+}
