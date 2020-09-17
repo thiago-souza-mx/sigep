@@ -5,7 +5,7 @@
     "keywords": ["correios", "sigep"],
     "prefer-stable": true,
     "require": {
-        "php": "^7.0",
+        "php": ">=5.4",
         "stavarengo/php-sigep": "^1.0@dev",
         "stavarengo/php-sigep-fpdf": "dev-master"
     },
@@ -16,6 +16,12 @@
             "email": "thiagoraouza@gmail.com"
         }
     ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev",
+            "dev-develop": "1.1-dev"
+        }
+    },
     "autoload":{
         "psr-4":{
             "Sigep\\":"src/"
